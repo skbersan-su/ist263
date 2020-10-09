@@ -4,6 +4,6 @@
     a:link {color: #eb34d8; }
     nav {background-color: #969296;}
 
-    nav a:link {color: #50afeb; }
+    nav link {color: #50afeb; }
     nav a:visited {color: #67769e; }
     nav a:hover {color: #eb34d8; }
