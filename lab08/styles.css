@@ -11,8 +11,9 @@
     nav {padding: 10px; }
     nav {margin-bottom: 30px; }
     
-    <style>
-        .img1 {float: left; }
-    </style>
+
+    .img1 {float: left; margin-right: 10px; }
+    .clean {clear: both; }
+
 
     
