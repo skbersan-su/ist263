@@ -16,8 +16,8 @@
             .part2 {display: flex; }
             .part2 article {padding: 20px; }
             .article3, .article4 {margin: 10px; }
-                .article3 {flex: 1; order: 2; background-color: #cce5ff; border-radius: 1em; }
-                .article4 {flex: 1; order: 1; }
+                .article3 {flex: 1; order: 2; background-color: #3290a1; border-radius: 1em; }
+                .article4 {flex: 1; order: 1; background-color: #3241a1; border-radius: 1em; }
                 
 
         </style>
@@ -56,14 +56,15 @@
 
     <article class="article4">
     <form action="mailto:skbersan@syr.edu" method="post"></form>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname">
+        <label for="fname">Name:</label><br>
 
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
         <input type="radio" id="Other" name="gender" Value="Other">
-        <label for="Other">Other</label>
+        <label for="Other">Other</label> <br>
 
         <label for="formtext">Extra Information:</label>
         <textarea id="formtext" name="formtext" rows="4" cols="50">
