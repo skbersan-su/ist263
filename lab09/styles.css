@@ -13,7 +13,17 @@
     
     .img1 {max-width: 100%; }
 
- 
-
+    .article1 {float: left; margin-right: 10px}
+    .clear {clear: both; }
+    .article2 {float: right; margin-right: 120px}
+    .clear {clear: both; }
+    
+    .part2 {display: flex; }
+    .part2 article {padding: 20px; }
+    .article3, .article4 {margin: 10px; }
+        .article3 {flex: 1; order: 2; background-color: #3241a1; border-radius: 1em; }
+        .article4 {flex: 1; order: 1; background-color: #3290a1; border-radius: 1em; }
+    
+    .part2 {flex-wrap: wrap; }
 
     
