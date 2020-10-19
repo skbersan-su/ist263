@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Contact </title>
+        <link rel="stylesheet" href="styles.css">
+
+        <style>
+           
+            .article1 {float: left; margin-right: 10px}
+            .clear {clear: both; }
+            .article2 {float: right; margin-right: 120px}
+            .clear {clear: both; }
+            
+            .part2 {display: flex; }
+            .part2 article {padding: 20px; }
+            .article3, .article4 {margin: 10px; }
+                .article3 {flex: 1; order: 2; background-color: #3241a1; border-radius: 1em; }
+                .article4 {flex: 1; order: 1; background-color: #3290a1; border-radius: 1em; }
+                
+
+        </style>
+
+    </head>
+    <body>
+        <nav> 
+            <a href="index.html">Home | </a>
+            <a href="skills.html">Skills | </a>
+            <a href="contact.html">Contact</a> 
+          
+        </nav>
+
+
+
+       <header> <h1>Address:</h1> </header>
+    <div class="part1">
+        <article class="article1">
+    <p>
+        <strong>Sophia Bersani</strong> <br>
+        1029 Madison St. <br>
+        Syracuse, NY 13210 <br>
+    </p>
+        </article>
+        <article class="article2">
+    <a href="https://www.linkedin.com/in/sophiabersani/">My LinkedIn Profile</a> <br>
+   
+    <a href="mailto:skbersan@syr.edu">Sophia Bersani Email</a> <br>
+    
+    <a href="https://www.linkedin.com/in/sophiabersani/"><img src="../images/logo-sized.png" alt="linkedin logo"></a> <br>
+        </article>
+    <div class="clear"></div>  
+
+<div class="part2">
+    <article class="article3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.8062966140765!2d-76.13353484916502!3d43.04550689942826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f309e538f45f%3A0x8f1ad07f90fb7b4a!2s1029%20Madison%20St%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1599617511448!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </article>
+
+    <article class="article4">
+    <form action="mailto:skbersan@syr.edu" method="post"></form>
+    <label for="fname">Name:</label>    
+    <input type="text" id="fname" name="fname">
+        <br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="Other" name="gender" Value="Other">
+        <label for="Other">Prefer Not To Answer</label> <br>
+
+        <label for="formtext">Extra Information:</label>
+        <textarea id="formtext" name="formtext" rows="4" cols="50">
+    Please use the above form to submit your gender, thanks so much! Reach out by email if you have any further questions.
+        </textarea>
+        <input type="submit" value="Submit">
+    </article>
+</div>
+
+</body>
