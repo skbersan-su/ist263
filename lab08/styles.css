@@ -1,5 +1,4 @@
-
-    body {background-color: #fce3f9; }
+body {background-color: #fce3f9; }
     body {color: #000000; }
     a:link {color: #eb34d8; }
     nav {background-color: #c470a4; }
@@ -10,9 +9,21 @@
 
     nav {padding: 10px; }
     nav {margin-bottom: 30px; }
+
+    .span {float: right; margin-right: 10px; }
+    .clear {clear: both; }
+    
+    .img1 {max-width: 100%; }
+
+    .article1 {float: left; margin-right: 10px}
+    .clear {clear: both; }
+    .article2 {float: right; margin-right: 120px}
+    .clear {clear: both; }
     
 
- 
 
-
-    
+    .part2 {display: flex; }
+    .part2 article {padding: 20px; }
+    .article3, .article4 {margin: 10px; }
+        .article3 {flex: 1; order: 2; background-color: #3241a1; border-radius: 1em; }
+        .article4 {flex: 1; order: 1; background-color: #3290a1; border-radius: 1em; }
