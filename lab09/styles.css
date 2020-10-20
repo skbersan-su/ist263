@@ -28,5 +28,5 @@
         .part2 {flex-wrap: wrap; }
 
     @media only screen and (max-width: 768px) {
-        body {background-color: black}
-    }
+        nav {display: block; }
+    } 
