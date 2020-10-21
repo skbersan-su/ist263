@@ -22,13 +22,15 @@
     .clear {clear: both; }
     
 
-    .part2 {display: flex; }
+    .part1 {background-color: gray; }
+
+    .part2 {display: flex; background-color: #3241a1; border-radius: 1em;}
     .part2 article {padding: 20px; }
     .article3, .article4 {margin: 10px; }
-        .article3 {flex: 1; order: 2; background-color: #3241a1; border-radius: 1em; }
-        .article4 {flex: 1; order: 1; background-color: #3290a1; border-radius: 1em; }
+    .article3 {flex: 1; order: 2; }
+    .article4 {flex: 1; order: 1; }
     
-        .part2 {flex-wrap: wrap; }
+    .part2 {flex-wrap: wrap; }
 
     @media only screen and (max-width: 768px) {
         .nav {display: block; }
