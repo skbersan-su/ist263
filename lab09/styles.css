@@ -1,12 +1,16 @@
 
     body {background-color: #EEE2DC; }
     body {color: #050E2B; }
-    a:link {color: #123C69; }
-    nav {background-color: #fadbf7; }
+    a:link {color: #fadbf7; }
+    a:visited {color: #f595dd; }
+    a:hover {color: #d841b2; }
+    nav {background-color: #AC3B61; }
 
-    nav a:link {color: #123C69; }
-    nav a:visited {color: green; }
-    nav a:hover {color: #AC3B61; }
+    nav a:link {color: #fadbf7; }
+    nav a:visited {color: #f595dd; }
+    nav a:hover {color: #d841b2; }
+
+
 
     .copyright {float: left; margin-left: 10px; }
     .clear {clear: both; }
@@ -24,9 +28,10 @@
     .clear {clear: both; }
     
 
-    .part1 {background-color: #EDC7B7; }
+    .part1 {background-color: #b36d7d; }
+    .part1 article {padding: 10px; }
     .part2 {display: flex; background-color: #BAB2B5; border-radius: 1em;}
-    .part2 article {padding: 20px; }
+    .part2 article {padding: 10px; }
     .article3, .article4 {margin: 10px; }
     .article3 {flex: 1; order: 2; }
     .article4 {flex: 1; order: 1; }
