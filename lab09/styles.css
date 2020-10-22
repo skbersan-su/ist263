@@ -1,12 +1,12 @@
 
     body {background-color: #EEE2DC; }
-    body {color: #AC3B61; }
+    body {color: #050E2B; }
     a:link {color: #123C69; }
-    nav {background-color: #73bff5; }
+    nav {background-color: #fadbf7; }
 
-    nav a:link {color: #50afeb; }
-    nav a:visited {color: #050e2b; }
-    nav a:hover {color: #fadbf7; }
+    nav a:link {color: #123C69; }
+    nav a:visited {color: green; }
+    nav a:hover {color: #AC3B61; }
 
     .copyright {float: left; margin-left: 10px; }
     .clear {clear: both; }
