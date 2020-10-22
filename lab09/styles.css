@@ -8,6 +8,8 @@
     nav a:visited {color: #67769e; }
     nav a:hover {color: #eb34d8; }
 
+    .copyright {float: left; margin-left: 10px; }
+    .clear {clear: both; }
     .quote {float: right; margin-right: 10px; }
     .clear {clear: both; }
 
