@@ -1,12 +1,12 @@
 
-    body {background-color: #fce3f9; }
-    body {color: #000000; }
-    a:link {color: #eb34d8; }
-    nav {background-color: #c470a4; }
+    body {background-color: #EEE2DC; }
+    body {color: #AC3B61; }
+    a:link {color: #123C69; }
+    nav {background-color: #73bff5; }
 
     nav a:link {color: #50afeb; }
-    nav a:visited {color: #67769e; }
-    nav a:hover {color: #eb34d8; }
+    nav a:visited {color: #050e2b; }
+    nav a:hover {color: #fadbf7; }
 
     .copyright {float: left; margin-left: 10px; }
     .clear {clear: both; }
@@ -24,8 +24,8 @@
     .clear {clear: both; }
     
 
-    .part1 {background-color: gray; }
-    .part2 {display: flex; background-color: #3241a1; border-radius: 1em;}
+    .part1 {background-color: #EDC7B7; }
+    .part2 {display: flex; background-color: #BAB2B5; border-radius: 1em;}
     .part2 article {padding: 20px; }
     .article3, .article4 {margin: 10px; }
     .article3 {flex: 1; order: 2; }
