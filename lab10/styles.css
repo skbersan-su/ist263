@@ -12,8 +12,8 @@
 
     body {background-color: #EEE2DC; }
     body {color: #050E2B; }
-    a:link {color: #2867B2; }
-    a:visited {color: #c2e4ff; }
+    a:link {color: #000000; }
+    a:visited {color: #f595dd; }
     a:hover {color: #FFFFFF; }
     nav {background-color: #AC3B61; }
 
