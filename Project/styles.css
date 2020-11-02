@@ -1,0 +1,29 @@
+    body {background-color: #FFFFFF; }
+    body {color: #000000; }
+    nav {background-color: #E5BABF; }
+    nav a:link {color: #FFFFFF; }
+    nav a:visited {color: #FFFFFF; }
+    nav a:hover {color: #FCF1EF; }
+    nav {padding: 10px; }
+    nav {margin-bottom: 30px; }
+
+
+    @media only screen and (max-width: 768px) 
+    {
+        nav a {width: 100%; display: block; padding: 20px; }
+        .pipe {display: none; }
+
+    } 
+
+    #skip-to-content { 
+        position: absolute;
+        left: -999px;
+        background-color: #AC3B61;
+        border: 1px solid gray;
+    }
+    #skip-to-content:focus {
+        position: absolute;
+        left: 10px;
+    }
+
+    /* colors #E5BABF #FCF1EF #E7D8C9 #CDD3D6 #5E616B */
