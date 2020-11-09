@@ -1,4 +1,4 @@
-    /*
+
     body {background-color: #FFFFFF; }
     body {color: #000000; }
     nav {background-color: #E5BABF; }
@@ -8,6 +8,7 @@
     nav {padding: 10px; }
     nav {margin-bottom: 30px; }
 
+    body { font-family: Arial, Helvetica, sans-serif; }
 
     @media only screen and (max-width: 768px) 
     {
@@ -27,4 +28,4 @@
         left: 10px;
     }
 
-  colors #E5BABF #FCF1EF #E7D8C9 #CDD3D6 #5E616B */
+ /* colors #E5BABF #FCF1EF #E7D8C9 #CDD3D6 #5E616B */
