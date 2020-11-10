@@ -1,0 +1,57 @@
+#skip-to-content { 
+    position: absolute;
+    left: -999px;
+    background-color: #AC3B61;
+    border: 1px solid gray;
+}
+#skip-to-content:focus {
+    position: absolute;
+    left: 10px;
+}
+
+
+    body {background-color: #EEE2DC; }
+    body {color: #050E2B; }
+    a:link {color: #000000; }
+    a:visited {color: #000000; }
+    a:hover {color: #FFFFFF; }
+    nav {background-color: #AC3B61; }
+
+    nav a:link {color: #fadbf7; }
+    nav a:visited {color: #f595dd; }
+    nav a:hover {color: #FFFFFF; }
+
+
+
+    .copyright {float: left; margin-left: 10px; }
+    .clear {clear: both; }
+    .quote {float: right; margin-right: 10px; }
+    .clear {clear: both; }
+
+    nav {padding: 10px; }
+    nav {margin-bottom: 30px; }
+    
+    .img1 {max-width: 100%; }
+
+    .article1 {float: left; margin-right: 10px}
+    .clear {clear: both; }
+    .article2 {float: right; margin-right: 120px}
+    .clear {clear: both; }
+    
+
+    .part1 {background-color: #b36d7d; }
+    .part1 article {padding: 10px; }
+    .part2 {display: flex; background-color: #BAB2B5; border-radius: 1em;}
+    .part2 article {padding: 10px; }
+    .article3, .article4 {margin: 10px; }
+    .article3 {flex: 1; order: 2; }
+    .article4 {flex: 1; order: 1; }
+    .part2 {flex-wrap: wrap; }
+
+
+    @media only screen and (max-width: 768px) 
+    {
+        nav a {width: 100%; display: block; padding: 20px; }
+        .pipe {display: none; }
+
+    } 

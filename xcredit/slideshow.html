@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Abroad Experience</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            background-color: #111111;
+            color: #ffffff;
+        }
+        #slideshow-container {
+            background-color: #000000;
+            width: 1200px;
+            margin: auto;    
+        }
+        #bigimages {margin-right: 100px;}
+        .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11 {width: 30px; height: auto; }
+
+        #placesinfo {padding: 100px;}
+        #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
+        /* ^^ margin auto is centering this container */
+        #florencethumb, #tuscanythumb, #milanthumb, #budapestthumb, #viennathumb, #salzburgthumb, #praguethumb, #venicethumb, #romethumb, #zermattthumb, #barcelonathumb
+        {width: 100px;}
+
+        #tuscany, #tuscanyinfo, #milan, #milaninfo, #budapest, #budapestinfo, #vienna, #viennainfo, #salzburg, #salzburginfo, #prague, #pragueinfo, #venice, #veniceinfo, #rome, #romeinfo, #zermatt, #zermattinfo, #barcelona, #barcelonainfo {display: none; }
+
+        #bigimages {float: left; margin-right: 10px}
+        .clear {clear: both; }
+        
+
+    </style>
+    <script>
+        
+    
+       function PlacesOff () {
+        document.getElementById('florence').style.display = 'none';
+        document.getElementById('florenceinfo').style.display = 'none';
+        document.getElementById('tuscany').style.display = 'none';
+        document.getElementById('tuscanyinfo').style.display = 'none';
+        document.getElementById('milan').style.display = 'none';
+        document.getElementById('milaninfo').style.display = 'none';
+        document.getElementById('budapest').style.display = 'none';
+        document.getElementById('budapestinfo').style.display = 'none';
+        document.getElementById('vienna').style.display = 'none';
+        document.getElementById('viennainfo').style.display = 'none';
+        document.getElementById('salzburg').style.display = 'none';
+        document.getElementById('salzburginfo').style.display = 'none';
+        document.getElementById('prague').style.display = 'none';
+        document.getElementById('pragueinfo').style.display = 'none';
+        document.getElementById('venice').style.display = 'none';
+        document.getElementById('veniceinfo').style.display = 'none';
+        document.getElementById('rome').style.display = 'none';
+        document.getElementById('romeinfo').style.display = 'none';
+        document.getElementById('zermatt').style.display = 'none';
+        document.getElementById('zermattinfo').style.display = 'none';
+        document.getElementById('barcelona').style.display = 'none';
+        document.getElementById('barcelonainfo').style.display = 'none';
+
+        }
+        function FlorenceOn () {
+            document.getElementById('florence').style.display = 'block';
+            document.getElementById('florenceinfo').style.display = 'block';
+        }
+        function TuscanyOn () {
+            document.getElementById('tuscany').style.display = 'block';
+            document.getElementById('tuscanyinfo').style.display = 'block';
+        }
+        function MilanOn () {
+            document.getElementById('milan').style.display = 'block';
+            document.getElementById('milaninfo').style.display = 'block';
+        }
+        function BudapestOn () {
+            document.getElementById('budapest').style.display = 'block';
+            document.getElementById('budapestinfo').style.display = 'block';
+        }
+        function ViennaOn () {
+            document.getElementById('vienna').style.display = 'block';
+            document.getElementById('viennainfo').style.display = 'block';
+        }
+        function SalzburgOn () {
+            document.getElementById('salzburg').style.display = 'block';
+            document.getElementById('salzburginfo').style.display = 'block';
+        }
+        function PragueOn () {
+            document.getElementById('prague').style.display = 'block';
+            document.getElementById('pragueinfo').style.display = 'block';
+        }
+        function VeniceOn () {
+            document.getElementById('venice').style.display = 'block';
+            document.getElementById('veniceinfo').style.display = 'block';
+        }
+        function RomeOn () {
+            document.getElementById('rome').style.display = 'block';
+            document.getElementById('romeinfo').style.display = 'block';
+        } 
+        function ZermattOn () {
+            document.getElementById('zermatt').style.display = 'block';
+            document.getElementById('zermattinfo').style.display = 'block';
+        } 
+        function BarcelonaOn () {
+            document.getElementById('barcelona').style.display = 'block';
+            document.getElementById('barcelonainfo').style.display = 'block';
+        }
+
+    </script>
+</head>
+<body>
+<div id="slideshow-container">
+    <div id="bigimages">
+        <figure class="img1">
+        <img src="images/florence.JPG" alt="florence" id="florence">
+        </figure>
+
+        <figure class="img2"></figure>
+        <img src="images/tuscany.HEIC" alt="tuscany" id="tuscany">
+        </figure>
+
+        <figure class="img3"></figure>
+        <img src="images/milan.JPG" alt="milan" id="milan">
+        </figure>
+        
+        <figure class="img4"></figure>
+        <img src="images/budapest.HEIC" alt="budapest" id="budapest">
+        </figure>
+        
+        <figure class="img5"></figure>
+        <img src="images/vienna.JPG" alt="vienna" id="vienna">
+        </figure>
+        
+        <figure class="img6"></figure>
+        <img src="images/salzburg.JPG" alt="salzburg" id="salzburg">
+        </figure>
+        
+        <figure class="img7"></figure>
+        <img src="images/prague.HEIC" alt="prage" id="prague">
+        </figure>
+        
+        <figure class="img8"></figure>
+        <img src="images/venice.JPG" alt="venice" id="venice">
+        </figure>
+        
+        <figure class="img9"></figure>
+        <img src="images/rome.jpeg" alt="rome" id="rome">
+        </figure>
+        
+        <figure class="img10"></figure>
+        <img src="images/zermatt.jpeg" alt="zermatt" id="zermatt">
+        </figure>
+        
+        <figure class="img11"></figure>
+        <img src="images/barcelona.jpeg" alt="barcelona" id="barcelona">
+        </figure>
+    
+    </div>
+    <div id="placesinfo">        
+        <h1>Places Slideshow</h1>
+        <div id="florenceinfo">
+            <h2>Florence, Italy</h2>
+            <p>Florence is </p>
+        </div>
+        <div id="tuscanyinfo">
+            <h2>Tuscany, Italy</h2>
+            <p>Tuscany  </p>
+        </div>
+        <div id="milaninfo">
+            <h2>Milan, Italy</h2>
+            <p>Milan </p>
+        </div>
+        <div id="budapestinfo">
+            <h2>Budapest, Hungary</h2>
+            <p>Budapest </p>
+        </div>
+        <div id="viennainfo">
+            <h2>Vienna, Austria</h2>
+            <p>Vienna </p>
+        </div>
+        <div id="salzburginfo">
+            <h2>Salzburg, Austria</h2>
+            <p>Salzburg </p>
+        </div>
+        <div id="pragueinfo">
+            <h2>Prague, Czech Republic</h2>
+            <p>Prague </p>
+        </div>
+        <div id="veniceinfo">
+            <h2>Venice, Italy</h2>
+            <p>Venice</p>
+        </div>
+        <div id="romeinfo">
+            <h2>Rome, Italy</h2>
+            <p>Rome</p>
+        </div>
+        <div id="zermattinfo">
+            <h2>Zermatt, Switzerland</h2>
+            <p>Zermatt</p>
+        </div>
+        <div id="barcelonainfo">
+            <h2>Barcelona, Spain</h2>
+            <p>Barcelona</p>
+        </div>
+    </div>
+    <div class="clear"></div>  
+    <div id="thumbnails">
+        <img src="images/florence.JPG" alt="florence" id="florencethumb" onclick="PlacesOff(); FlorenceOn();">
+        <img src="images/tuscany.HEIC" alt="tuscany" id="tuscanythumb" onclick="PlacesOff(); TuscanyOn();">
+        <img src="images/milan.JPG" alt="milan" id="milanthumb" onclick="PlacesOff(); MilanOn();">
+        <img src="images/budapest.HEIC" alt="budapest" id="budapestthumb" onclick="PlacesOff(); BudapestOn();">
+        <img src="images/vienna.JPG" alt="vienna" id="viennathumb" onclick="PlacesOff(); ViennaOn();">
+        <img src="images/salzburg.JPG" alt="salzburg" id="salzburgthumb" onclick="PlacesOff(); SalzburgOn();">
+        <img src="images/prague.HEIC" alt="prage" id="praguethumb" onclick="PlacesOff(); PragueOn();">
+        <img src="images/venice.JPG" alt="venice" id="venicethumb" onclick="PlacesOff(); VeniceOn();">
+        <img src="images/rome.jpeg" alt="rome" id="romethumb" onclick="PlacesOff(); RomeOn();">
+        <img src="images/zermatt.jpeg" alt="zermatt" id="zermattthumb" onclick="PlacesOff(); ZermattOn();">
+        <img src="images/barcelona.jpeg" alt="barcelona" id="barcelonathumb" onclick="PlacesOff(); BarcelonaOn();">
+    </div>
+
+</div>
+
+</body>
+</html>
