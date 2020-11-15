@@ -1,5 +1,5 @@
 
-    body {background-color: #A6EBE7; }
+    body {background-color: #F9D1D1; }
     body {color: #000000; }
     
     nav a:link {color: #FFFFFF; }
@@ -40,7 +40,7 @@
 
     #content {display: flex; background-color: #5E616B;}
 
-    .part1 {background-color: #72D2E3;}
+    .part1 {background-color: #FF5AB0;}
     .part1 {color: #FFFFFF; }
     .part1 {text-align: center; }
 
@@ -59,23 +59,25 @@
     .salad, .tofu, .pancakes, .bananacd {width: 90%; } 
 
 
-    .breakfast {display: flex; background-color: #CAAAF3; }
+    .breakfast {display: flex; background-color: #FFA4B6; }
     .breakfast {padding: 10px; }
 
     .recipe1, .recipe2, .recipe3, .recipe4 {margin: 10px; }
 
-    .sweets {display: flex; background-color: #FCF1EF; }
+    .sweets {display: flex; background-color: #FFA4B6; }
     .sweets {padding: 10px; }   
     
-    .maincourses {display: flex; background-color: #E7D8C9; }
+    .maincourses {display: flex; background-color: #FFA4B6; }
     .maincourses {padding: 10px; }   
 
-    .sides {display: flex; background-color: #CDD3D6; }
+    .sides {display: flex; background-color: #FFA4B6; }
     .sides {padding: 10px; }   
 
     .kayak {max-width: 100%;}
 
     .recipeintro {text-align: center;}
+
+  
 
   
     /*  .recipe2 {flex: 1; order: 1; }
