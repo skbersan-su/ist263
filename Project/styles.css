@@ -13,9 +13,10 @@
     #navlinks {display: block; }
     #navlinks {text-align: center;}
     #hamicon {width: 45px; display: none; }
+    
     @media only screen and (max-width: 768px) 
     {
-        nav a {width: 100%; display: block; padding: 20px; }
+        .pagelinks {width: 100%; display: block; padding: 20px; }
         .pipe {display: none; }
         #hamicon {display: block; }
         #navlinks {display: none; }
