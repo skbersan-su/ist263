@@ -1,5 +1,5 @@
 
-    body {background-color: #F9D1D1; }
+    body {background-color: #ddd7dc; }
     body {color: #000000; }
     
     nav a:link {color: #FFFFFF; }
@@ -39,18 +39,18 @@
 
     #content {display: flex; background-color: #5E616B;}
 
-    .part1 {background-color: #FFFFFF;}
-    .part1 {color: #FF5AB0; }
+    .part1 {background-color: #a994a7;}
+    .part1 {color: #f1eff2; }
     .part1 {text-align: center; }
 
-    .pagelinks a:link {color: #FFFFFF;}
-    .pagelinks a:visited {color: #FFFFFF; }
+    .pagelinks a:link {color: #f1eff2;}
+    .pagelinks a:visited {color: #f1eff2; }
     .pagelinks a:hover {color: #FCF1EF; }
     .pagelinks {padding: 10px; }
     .pagelinks {margin-bottom: 30px; }
 
-    .placeslinks a:link {color: #FFFFFF;}
-    .placeslinks a:visited {color: #FFFFFF; }
+    .placeslinks a:link {color: #f1eff2;}
+    .placeslinks a:visited {color: #f1eff2; }
     .placeslinks a:hover {color: #FCF1EF; }
     .placeslinks {padding: 10px; }
     .placeslinks {margin-bottom: 30px; }
@@ -58,23 +58,23 @@
     .salad, .tofu, .pancakes, .bananacd {max-width: 90%; } 
 
 
-    .breakfast {display: flex; background-color: #FFA4B6; }
+    .breakfast {display: flex; background-color: #bebccb; }
     .breakfast {padding: 10px; }
 
     .recipe1, .recipe2, .recipe3, .recipe4 {margin: 10px; }
 
-    .sweets {display: flex; background-color: #FFA4B6; }
+    .sweets {display: flex; background-color: #bebccb; }
     .sweets {padding: 10px; }   
     
-    .maincourses {display: flex; background-color: #FFA4B6; }
+    .maincourses {display: flex; background-color: #bebccb; }
     .maincourses {padding: 10px; }   
 
-    .sides {display: flex; background-color: #FFA4B6; }
+    .sides {display: flex; background-color: #bebccb; }
     .sides {padding: 10px; }   
 
     .kayak {max-width: 100%;}
 
-    .recipeintro {text-align: center;}
+    .recipeintro {color: #000000; text-align: center;}
 
   
 
