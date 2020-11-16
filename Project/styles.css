@@ -43,8 +43,8 @@
     .part1 {color: #f1eff2; }
     .part1 {text-align: center; }
 
-    .pagelinks a:link {color: #f1eff2;}
-    .pagelinks a:visited {color: #f1eff2; }
+    .pagelinks a:link {color: #ffffff;}
+    .pagelinks a:visited {color: #ffffff; }
     .pagelinks a:hover {color: #FCF1EF; }
     .pagelinks {padding: 10px; }
     .pagelinks {margin-bottom: 30px; }
