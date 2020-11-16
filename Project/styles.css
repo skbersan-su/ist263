@@ -2,9 +2,9 @@
     body {background-color: #ddd7dc; }
     body {color: #000000; }
     
-    nav a:link {color: #FFFFFF; }
-    nav a:visited {color: #FFFFFF; }
-    nav a:hover {color: #FCF1EF; }
+    nav a:link {color: #000000; }
+    nav a:visited {color: #000000; }
+    nav a:hover {color: #bebccb; }
     nav {padding: 10px; }
     nav {margin-bottom: 30px; }
 
@@ -40,18 +40,18 @@
     #content {display: flex; background-color: #5E616B;}
 
     .part1 {background-color: #a994a7;}
-    .part1 {color: #f1eff2; }
+    .part1 {color: #000000; }
     .part1 {text-align: center; }
 
-    .pagelinks a:link {color: #ffffff;}
-    .pagelinks a:visited {color: #ffffff; }
-    .pagelinks a:hover {color: #FCF1EF; }
+    .pagelinks a:link {color: #000000;}
+    .pagelinks a:visited {color: #000000; }
+    .pagelinks a:hover {color: #bebccb; }
     .pagelinks {padding: 10px; }
     .pagelinks {margin-bottom: 30px; }
 
-    .placeslinks a:link {color: #f1eff2;}
-    .placeslinks a:visited {color: #f1eff2; }
-    .placeslinks a:hover {color: #FCF1EF; }
+    .placeslinks a:link {color: #000000;}
+    .placeslinks a:visited {color: #000000; }
+    .placeslinks a:hover {color: #bebccb; }
     .placeslinks {padding: 10px; }
     .placeslinks {margin-bottom: 30px; }
 
