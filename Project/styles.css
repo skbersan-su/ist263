@@ -55,7 +55,7 @@
     .placeslinks {padding: 10px; }
     .placeslinks {margin-bottom: 30px; }
 
-    .salad, .tofu, .pancakes, .bananacd {width: 90%; } 
+    .salad, .tofu, .pancakes, .bananacd {max-width: 90%; } 
 
 
     .breakfast {display: flex; background-color: #FFA4B6; }
