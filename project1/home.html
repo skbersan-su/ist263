@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>Healthful Cravings - Home </title>
+        <script src="myscript.js"></script>
+   
+    </head>
+
+    <body>
+        <div class= part1>
+        <img src="sitemedia/hamburger.png" alt="hamburger icon" id="hamicon" onclick="TurnNavOnOff();">
+        <nav id="navlinks"> 
+            <a id="skip-to-content" href="#content" tabindex="1">Skip To Content</a>
+            <a href="home.html"><strong>Home</strong><span class="pipe">|</span> </a>
+            <a href="aboutme.html"><strong>About Me</strong>  <span class="pipe">|</span> </a>
+            <a href="recipes.html"><strong>Recipes</strong> <span class="pipe">|</span> </a>
+            <a href="recs.html"><strong>Restaurant Recommendations</strong></a> 
+          
+        </nav>
+        <header>
+        <h1>Healthful Cravings</h1>
+            <h2>Welcome to my page!</h2>
+        </header>
+
+        </div>
+        
+        <div class= "intro">
+        <figure>
+        <img class="imgme" src="sitemedia/Me2.jpg" alt="Pro Pic">
+        </figure>
+        
+
+        <main>
+            <a id="content"></a>
+
+            <p> Hi, My name is Sophia and I am a 21 year old from Boston, MA. I am currently a senior at Syracuse University
+                and I love all things health and wellness. Welcome to my page where you can find delcious recipes, amazing restaurant finds,
+                and more!  
+            </p>
+
+            <div class="clear"></div>
+        </div>
+            <p>Please use the form below to contact me if you have any comments, questions, or inquiries!</p>
+
+        </main>
+
+        <section class="form">
+            <fieldset>
+                <legend>Contact Form:</legend>
+            <form action="mailto:skbersan@syr.edu" method="post"></form>
+            <label for="fname">Name:</label>    
+            <input type="text" id="fname" name="fname">
+            
+            <label for="formtext">Message:</label>
+            <textarea id="formtext" name="formtext" rows="4" cols="50">
+            Type your message here
+            </textarea>
+            <input type="submit" value="Submit">
+            </fieldset>
+        </section>
+
+        <hr>
+        <footer>
+            <p class="name"> Sophia Bersani - Healthful Cravings <p class="copyright"> &copy; 2020 </p>
+            <div class="clear"></div>
+        </footer>
+
+        </body>
+</html>

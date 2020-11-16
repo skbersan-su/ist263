@@ -16,11 +16,12 @@
     
     @media only screen and (max-width: 768px) 
     {
-        #navlinks a {width: 100%; display: block; padding: 20px; }
-        .pagelinks a {width: 100%; display: block; padding: 20px; }
+        .navlinks {width: 100%; display: block; padding: 20px; }
+        .pagelinks {width: 100%; display: block; padding: 20px; }
         .pipe {display: none; }
-  
-       
+        .placeslinks {width: 100%; display: block; padding: 20px; }
+        #hamicon {display: block; }
+        #navlinks {display: none; }
     } 
 
     #skip-to-content { 
