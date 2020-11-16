@@ -39,8 +39,8 @@
 
     #content {display: flex; background-color: #5E616B;}
 
-    .part1 {background-color: #FF5AB0;}
-    .part1 {color: #FFFFFF; }
+    .part1 {background-color: #FFFFFF;}
+    .part1 {color: #FF5AB0; }
     .part1 {text-align: center; }
 
     .pagelinks a:link {color: #FFFFFF;}
