@@ -16,17 +16,17 @@
         }
         #bigimages {margin-right: 10px;}
 
-        #florence {width: 40%;}
-        #tuscany {width: 40%;}
-        #milan {width: 40%;}
-        #budapest {width: 40%;}
-        #vienna {width: 40%;}
-        #salzburg {width: 40%;}
-        #prague {width: 40%;}
-        #venice {width: 40%;}
-        #rome {width: 40%;}
-        #zermatt {width: 40%;}
-        #barcelona {width: 40%;}
+        #florence {width: 350px;}
+        #tuscany {width: 350px;}
+        #milan {width: 350px;}
+        #budapest {width: 350px;}
+        #vienna {width: 350px;}
+        #salzburg {width: 350px;}
+        #prague {width: 350px;}
+        #venice {width: 350px;}
+        #rome {width: 350px;}
+        #zermatt {width: 350px;}
+        #barcelona {width: 350px;}
 
         #placesinfo {padding: 10px;}
         #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
@@ -39,6 +39,113 @@
         #bigimages {float: left; margin-right: 10px}
         .clear {clear: both; }
 
+
+        #fig13 ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#fig13 li {
+	float: left;
+	margin-right: 10px;
+}
+#fig13 li:last-of-type {
+	margin-right: 0;
+}
+#fig13 a {
+	display: block;
+}
+#fig13 img {
+	width: 200px;
+	height: 150px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+	-webkit-transition: -webkit-transform .3s ease-in-out; 
+	-moz-transition: -moz-transform .3s ease-in-out; 
+	-o-transition: -o-transform .3s ease-in-out; 
+	-ms-transition: -ms-transform .3s ease-in-out; 
+	transition: transform .3s ease-in-out; 
+}
+
+#bigimages a:hover img {
+	box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+#bigimages a:hover #florence, a:focus #florence  {
+	-webkit-transform: scale(1.5) rotate(-3deg);
+	-moz-transform: scale(1.5) rotate(-3deg);
+	-o-transform: scale(1.5) rotate(-3deg);
+	-ms-transform: scale(1.5) rotate(-3deg);
+	transform: scale(1.5) rotate(-3deg);
+}
+#bigimages a:hover #tuscany, a:focus #tuscany  {
+	-webkit-transform: scale(1.5) rotate(5deg);
+	-moz-transform: scale(1.5) rotate(5deg);
+	-o-transform: scale(1.5) rotate(5deg);
+	-ms-transform: scale(1.5) rotate(5deg);
+	transform: scale(1.5) rotate(5deg);
+}
+#bigimages a:hover #milan, a:focus #milan  {
+	-webkit-transform: scale(1.5) rotate(-7deg);
+	-moz-transform: scale(1.5) rotate(-7deg);
+	-o-transform: scale(1.5) rotate(-7deg);
+	-ms-transform: scale(1.5) rotate(-7deg);
+	transform: scale(1.5) rotate(-7deg);
+}
+#bigimages a:hover #budapest, a:focus #budapest  {
+    -webkit-transform: scale(1.5) rotate(2deg);
+	-moz-transform: scale(1.5) rotate(2deg);
+	-o-transform: scale(1.5) rotate(2deg);
+	-ms-transform: scale(1.5) rotate(2deg);
+    transform: scale(1.5) rotate(2deg);
+}
+#bigimages a:hover #vienna, a:focus #vienna  {
+	-webkit-transform: scale(1.5) rotate(-3deg);
+	-moz-transform: scale(1.5) rotate(-3deg);
+	-o-transform: scale(1.5) rotate(-3deg);
+	-ms-transform: scale(1.5) rotate(-3deg);
+	transform: scale(1.5) rotate(-3deg);
+}
+#bigimages a:hover #salzburg, a:focus #salzburg  {
+	-webkit-transform: scale(1.5) rotate(5deg);
+	-moz-transform: scale(1.5) rotate(5deg);
+	-o-transform: scale(1.5) rotate(5deg);
+	-ms-transform: scale(1.5) rotate(5deg);
+	transform: scale(1.5) rotate(5deg);
+}
+#bigimages a:hover #prague, a:focus #prague  {
+	-webkit-transform: scale(1.5) rotate(-7deg);
+	-moz-transform: scale(1.5) rotate(-7deg);
+	-o-transform: scale(1.5) rotate(-7deg);
+	-ms-transform: scale(1.5) rotate(-7deg);
+	transform: scale(1.5) rotate(-7deg);
+}
+#bigimages a:hover #venice, a:focus #venice  {
+    -webkit-transform: scale(1.5) rotate(2deg);
+	-moz-transform: scale(1.5) rotate(2deg);
+	-o-transform: scale(1.5) rotate(2deg);
+	-ms-transform: scale(1.5) rotate(2deg);
+    transform: scale(1.5) rotate(2deg);
+}
+#bigimages a:hover #rome, a:focus #rome  {
+	-webkit-transform: scale(1.5) rotate(-3deg);
+	-moz-transform: scale(1.5) rotate(-3deg);
+	-o-transform: scale(1.5) rotate(-3deg);
+	-ms-transform: scale(1.5) rotate(-3deg);
+	transform: scale(1.5) rotate(-3deg);
+}
+#bigimages a:hover #zermatt, a:focus #zermatt {
+	-webkit-transform: scale(1.5) rotate(5deg);
+	-moz-transform: scale(1.5) rotate(5deg);
+	-o-transform: scale(1.5) rotate(5deg);
+	-ms-transform: scale(1.5) rotate(5deg);
+	transform: scale(1.5) rotate(5deg);
+}
+#bigimages a:hover #barcelona, a:focus #barcelona {
+	-webkit-transform: scale(1.5) rotate(-7deg);
+	-moz-transform: scale(1.5) rotate(-7deg);
+	-o-transform: scale(1.5) rotate(-7deg);
+	-ms-transform: scale(1.5) rotate(-7deg);
+	transform: scale(1.5) rotate(-7deg);
+}
 
     </style>
     <script>
@@ -120,50 +227,51 @@
     <h1>My time Abroad</h1>
 <div id="slideshow-container">
     <div id="bigimages">
+        <ul>
         <figure class="img1">
-        <img src="images/florence.JPG" alt="florence" id="florence">
+        <li><a href=""><img src="images/florence.JPG" alt="florence" id="florence"></a></li>
         </figure>
 
         <figure class="img2">
-        <img src="images/tuscany.jpg" alt="tuscany" id="tuscany">
+        <li><a href=""><img src="images/tuscany.jpg" alt="tuscany" id="tuscany"></a></li>
         </figure>
 
         <figure class="img3">
-        <img src="images/milan.JPG" alt="milan" id="milan">
+        <li><a href=""><img src="images/milan.JPG" alt="milan" id="milan"></a></li>
         </figure>
         
         <figure class="img4">
-        <img src="images/budapest.jpg" alt="budapest" id="budapest">
+        <li><a href=""><img src="images/budapest.jpg" alt="budapest" id="budapest"></a></li>
         </figure>
         
         <figure class="img5">
-        <img src="images/vienna.JPG" alt="vienna" id="vienna">
+        <li><a href=""><img src="images/vienna.JPG" alt="vienna" id="vienna"></a></li>
         </figure>
         
         <figure class="img6">
-        <img src="images/salzburg.JPG" alt="salzburg" id="salzburg">
+        <li><a href=""><img src="images/salzburg.JPG" alt="salzburg" id="salzburg"></a></li>
         </figure>
         
         <figure class="img7">
-        <img src="images/prague.jpg" alt="prage" id="prague">
+        <li><a href=""><img src="images/prague.jpg" alt="prage" id="prague"></a></li>
         </figure>
         
         <figure class="img8">
-        <img src="images/venice.JPG" alt="venice" id="venice">
+        <li><a href=""><img src="images/venice.JPG" alt="venice" id="venice"></a></li>
         </figure>
         
         <figure class="img9">
-        <img src="images/rome.jpeg" alt="rome" id="rome">
+        <li><a href=""><img src="images/rome.jpeg" alt="rome" id="rome"></a></li>
         </figure>
         
         <figure class="img10">
-        <img src="images/zermatt.jpeg" alt="zermatt" id="zermatt">
+        <li><a href=""><img src="images/zermatt.jpeg" alt="zermatt" id="zermatt"></a></li>
         </figure>
         
         <figure class="img11">
-        <img src="images/barcelona.jpeg" alt="barcelona" id="barcelona">
+        <li><a href=""><img src="images/barcelona.jpeg" alt="barcelona" id="barcelona"></a></li>
         </figure>
-    
+    </ul>
     </div>
     <div id="placesinfo">        
         
