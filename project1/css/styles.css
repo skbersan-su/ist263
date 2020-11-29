@@ -1,0 +1,50 @@
+.jumbotron{
+
+    background-image:url('../sitemedia/sophia.JPG');
+    background-size:cover;
+    background-position:50% 30%;
+    color:#ffffff;
+}
+
+.bgcolor1{
+
+    background-color:#ffbff1;
+
+}
+
+.bgcolor2{
+
+    background-color:#d9bfff;
+}
+
+.btn, .btn:visited, .btn:active{
+
+    background-color:#ffbff1;
+    border-color:#ffbff1 ;
+    color:#ffffff;
+
+}
+
+.btn:hover{
+
+    background-color:#ffffff;
+    border-color: #ffffff;
+    color:#ffbff1;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ffbff1; 
+
+  }
+
+  .fa:hover{
+    background-color:#ffffff;
+    border-color: #ffffff;
+    color:#ffbff1; 
+  }
