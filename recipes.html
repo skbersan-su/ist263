@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
+<link href= 
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          rel="stylesheet"> 
     
   </head>
   <body>
@@ -65,7 +68,7 @@
 
             <form class="form-inline my-2 my-lg-0"></form>
             <a href="https://www.instagram.com/sophiabersani/" class="fa fa-instagram"></a>
-            <a href="https://www.linkedin.com/sophiabersani/" class="fa fa-linkedin"></a>
+            <a href="https://linkedin.com/in/sophiabersani/" class="fa fa-linkedin"></a>
           </form>
 
          
@@ -73,26 +76,48 @@
         </div>
       </nav>
 
- 
-        <header>Recipes</header>
+      <div class="container">
+    <header class="recipeheader">
+        <section class="recipeheader">
+        
+         <h1> Recipes
+        </h1>  
+        <hr>
         <main>
             <p class= "recipeintro">I love to cook! These are a few recipes I have created as I continue to learn how to fuel my body with delicious and nourishing foods.
          <br>
          On this page you will find recipes perfect for breakfast, dinner, desserts, and more!</p>
-         
-          
-
-        <section class="pagelinks">
-        <a href="breakfast.html"><img src="sitemedia/greekpancakes.JPG" alt="pancakes"></a>
-        <a href="sweets.html"><img src="sitemedia/brownies.JPG" alt="brownies"> </a>
-        <a href="maincourses.html"><img src="sitemedia/tofuricotta.JPG" alt="tofu ricotta"> </a>
-        <a href="sides.html"><img src="sitemedia/avocadocaprese.JPG" alt="avocado caprese salad"></a>
+        
+        </header>
         </section>
+        
+        <div class="row">
+           
+        <section class="pagelinks">
+        <div class="column" >
+        <a href="breakfast.html"><img src="sitemedia/greekpancakes.JPG" id="recipepic" alt="pancakes" class="img-fluid"></a> <br>
+        <a class="btn btn-primary btn-lg" href="breakfast.html" role="button">Breakfast</a>
+        </div>
+        <div class="column" >
+        <a href="sweets.html"><img src="sitemedia/brownies.JPG" id="recipepic" alt="brownies" class="img-fluid"></a><br>
+        <a class="btn btn-primary btn-lg" href="sweets.html" role="button">Sweets</a>
+    </div>
+        <div class="column" >
+        <a href="maincourses.html"><img src="sitemedia/tofuricotta.JPG" id="recipepic" alt="tofu ricotta" class="img-fluid"></a><br>
+        <a class="btn btn-primary btn-lg" href="maincourses.html" role="button">Main Courses</a>
+    </div>
+        <div class="column" >
+        <a href="sides.html"><img src="sitemedia/avocadocaprese.JPG" id="recipepic" alt="avocado caprese salad" class="img-fluid"></a><br>
+        <a class="btn btn-primary btn-lg" href="sides.html" role="button">Side Dishes</a>
+    </div>
+  
+    </section>
 
+    </div>
         </div>
       
         
-
+    </div>
         </main>
         <hr>
         <footer class="row bgcolor1" id="footer">
