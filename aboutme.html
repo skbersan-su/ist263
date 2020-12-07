@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Hello, world!</title>
+    <title>Sophia Bersani</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
@@ -14,40 +14,62 @@
     <!-- Put your general CSS file here -->
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
 
-    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">SophiaBersani</a>
+    <div class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffbff1">
+        <a class="navbar-brand" id="navbar-brand">SophiaBersani</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="aboutme.html">About Me<span class="sr-only">(current)</span></a>
               </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Recipes</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="recipes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Recipes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="recipes" href="recipes.html"><strong>Recipes</strong></a> <br>
+                  <a class="breakfast" href="breakfast.html">Breakfast</a> <br>
+                  <a class="sweets" href="sweets.html">Sweets</a> <br>
+                  <a class="sides" href="sides.html">Sides</a> <br>
+                  <a class="maincourses" href="maincourses.html">Main Courses</a>
+                </div>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="recs.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Restaurant Recommendations
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="restaurantrecs" href="recs.html"><strong>Restaurant Recommendations</strong></a> <br>
+                <a class="BOS" href="#BOS">Boston</a> <br>
+                <a class="NYC" href="#NYC">NYC</a> <br>
+                <a class="SYR" href="#SYR">Syracuse</a>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Restaurant Recommendations</a>
-            </li>
-
-            
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="https://www.instagram.com/sophiabersani/" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-
-
           </ul>
+        </div>  
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <form class="form-inline my-2 my-lg-0">
+            <a href="https://www.instagram.com/sophiabersani/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/sophiabersani/" class="fa fa-linkedin"></a>
+            </form>
+
          
+        
         </div>
       </nav>
 
@@ -59,9 +81,7 @@
 
             <div class="jumbotron">
 
-                <h1 class="display-4">Welcome!</h1>
-
-                <p class="lead">My name is Sophia Bersani and I love food!!</p>
+                <h1 class="display-4">Welcome to my life</h1>
 
                 <hr class="my-4">
  
@@ -74,53 +94,50 @@
 
     <section class="row">
 
-        <div class="col bgcolor1 pt-2 pr-3">
+        <div class="col bgcolor1 pt-2 pr-3" id="intro">
+          <article class="intro">
             <h2>Welcome to my page!
             </h2>
             <p> Hello! My name is Sophia Bersani and I am currently a senior in college attending Syracuse University. I have always been passionate about living a healthy lifestyle and nourishing my body with healthy foods and exercise. I love adventures and particularly exploring the outdoors. I would definitely consider myself a “foodie” and I love treating myself on occasions to delicious restaurants. I recently began learning to cook and have developed a passion for creating my own recipes as well as discovering amazing restaurants in some of my favorite cities. This is why I decided to create Healthful Cravings! In my website you will find heathy recipes along with my top restaurant recommendations in the three cities I know best, New York City, Boston, & Syracuse! I currently live in Syracuse, NY and I am planning on moving to NYC August 2021.  I hope you enjoy my content. Please feel free to contact me by email with any inquiries. </p>
-        </div>
+          </article>
+          </div>
 
-        <div class="col bgcolor2">
+        <div class="col bgcolor2" id="contact"> 
 
             <article class="contactname"></article>
-            <h2>contact me!</h2>
+            <h2>Contact Me!</h2>
             
         
-                <strong>Contact Information</strong> <br>
-                <p>Sophia Bersani</p>
-                <p> Phone Number: (508) 561-2889 </p>
+                
+                <p> <strong>Sophia Bersani </strong></p> 
+                
             
             </article>
             <section class="contactinfo">
            
-                <a class="btn btn-primary btn-lg" href="mailto:skbersan@syr.edu" role="button">Email Me</a>
-            
+                <a class="btn btn-primary btn-lg" href="mailto:skbersan@syr.edu" role="button">Email Me</a> <br>
+              <br> <p> Phone Number: <i> (508) 561-2889</i> </p>
             </section>
 
         </div>
-
+       
       
 
     </section>
 
     <hr>
-    <footer class="row bgcolor1">
+    <footer class="row bgcolor1" id=footer>
 
         <div class="col">
 
             <p class="name"> Sophia Bersani - Healthful Cravings <p class="copyright"> &copy; 2020 </p>
-
+            <div class="clear"></div>
+            
          </div>
-       
-     
-              
+             
     </footer>
 
-
-
   </div>
-
-
     <!-- Optional JavaScript but required for the cool stuff -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -1,43 +1,95 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <title>SOPHIA BERSANI - Recs </title>
-        <script src="myscript.js"></script>
-   
-    </head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <body>
-        <div class= part1>
-        <img src="sitemedia/hamburger.png" alt="hamburger icon" id="hamicon" onclick="TurnNavOnOff();">
-        <nav id="navlinks"> 
-            <a href="index.html"><strong>Home</strong><span class="pipe">|</span> </a>
-            <a href="aboutme.html"><strong>About Me</strong> <span class="pipe">|</span> </a>
-            <a href="recipes.html"><strong>Recipes</strong><span class="pipe">|</span> </a>
-            <a href="recs.html"><strong>Restaurant Recommendations</strong></a> 
-            <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Sophia Bersani</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+
+    <!-- Put your general CSS file here -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-        </nav>
 
+    
+  </head>
+  <body>
+    <div class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffbff1">
+        <a class="navbar-brand" id="navbar-brand">SophiaBersani</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="recipes.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Recipes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="recipes" href="recipes.html"><strong>Recipes</strong></a> <br>
+                  <a class="breakfast" href="breakfast.html">Breakfast</a> <br>
+                  <a class="sweets" href="sweets.html">Sweets</a> <br>
+                  <a class="sides" href="sides.html">Sides</a> <br>
+                  <a class="maincourses" href="maincourses.html">Main Courses</a>
+                </div>
+              </li>
+
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="recs.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Restaurant Recommendations<span class="sr-only">(current)</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="restaurantrecs" href="recs.html"><strong>Restaurant Recommendations</strong></a> <br>
+                  <a class="BOS" href="#BOS">Boston</a> <br>
+                  <a class="NYC" href="#NYC">NYC</a> <br>
+                  <a class="SYR" href="#SYR">Syracuse</a>
+                </div>
+              </li>
+          </ul>
+        </div>  
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <form class="form-inline my-2 my-lg-0"></form>
+            <a href="https://www.instagram.com/sophiabersani/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/sophiabersani/" class="fa fa-linkedin"></a>
+          </form>
+
+         
+        
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="restaurantheader">
         <header>
             <h1>Restaurant Recommendations</h1>
             </header>
 
-            <section class="placeslinks">
+            <main>
+                <section class="placeslinks" id="placeslinks">
                 <a href="#BOS"> Boston <span class="pipe">|</span> </a>
                 <a href="#NYC"> NYC <span class="pipe">|</span> </a>
-                <a href="#SYR"> Syracuse </a>
-    
+                <a href="#SYR">Syracuse </a>
                 </section>
-        
             </div>
 
-            <main>
+            <br>
             <div class="bos">
-                <p id="BOS"><strong>Boston Restaurant Recommendations</strong></p> <br>
+                <p class="BOS" id="BOS"><strong>Boston Restaurant Recommendations</strong></p>
         
             <p><strong>1. By Chloe </strong></p>
             <p>This healthy grab n go restaurant is entirely vegan and offers amazing options for everyone! Their sweet potato fries and black bean burger are my personal favorites, but everything on the menu is good! There are multiple locations around Boston so it’s easy to stop by no matter where you are. 
@@ -50,7 +102,7 @@
             <p>Another vegan restaurant, the menu at this restaurant is filled with so many delicious options. Sandwiches, smoothies, salads, and more it is the perfect spot to quickly grab a bite or use their comfy environment to sit, relax, and do some work.</p>
            
             <p><strong>4. Union Oyster House</strong></p>
-            <p>Located right next to Faneuil hall, this is America’s oldest continuously operating restaurant. It serves amazing seafood, great bear, and a fun environment. Head over the Mike’s Pastry on Hanover street after for a delicious Cannoli, the best dessert!</p>>
+            <p>Located right next to Faneuil hall, this is America’s oldest continuously operating restaurant. It serves amazing seafood, great bear, and a fun environment. Head over the Mike’s Pastry on Hanover street after for a delicious Cannoli, the best dessert!</p>
             
             <p><strong>5. Lincoln Tavern</strong></p>
             <p>Super fun restaurant amazing for brunch, lunch, or dinner! Located in Southie, a super hip and trendy area this restaurant offers so many delicious food options as well as fun events such as pumpkin carving and painting. This is my favorite spot in Boston for brunch, I love their avocado toast and fruit filled French toast. </p>
@@ -61,7 +113,7 @@
         <hr>
 
         <div class="NYC">
-            <p id="NYC"><strong>NYC Restaurant Recommendations</strong></p> <br>
+            <p class="NYC" id="NYC"><strong>NYC Restaurant Recommendations</strong></p>
     
                 <p><strong>1. The Catch</strong></p>
                 <!-- learn how to insert video -->
@@ -81,9 +133,10 @@
     
            </div>
 
+           <hr>
            <div class="SYR">
-            <p id="SYR"><strong>Syracuse Restaurant Recommendations</strong></p> <br>
-    
+            <p class="SYR" id="SYR"><strong>Syracuse Restaurant Recommendations</strong></p>
+            <div class="clear"></div>
                 <p><strong>1. Core</strong></p>
                 <p>The best and most convenient salad spot! Create your own salad from the many, many options they offer and quickly get on your way if you are in a rush. I love heading here if I don’t have enough time to cook for dinner or if I am just passing by on my way home. Great fast and healthy option. </p>
     
@@ -101,13 +154,23 @@
                 <p>AMAZING breakfast located right off Syracuse campus on Wescott street. Everything on their menu is over the top and amazing. Not the healthiest option but for sure delicious!</p>
            </div>
             </main>
-    
             <hr>
-
-        <footer>
-            <p class="name"> Sophia Bersani - Healthful Cravings <p class="copyright"> &copy; 2020 </p>
-            <div class="clear"></div>
-        </footer>
-
-        </body>
-</html>
+            <footer class="row bgcolor1" id="footer">
+        
+                <div class="col">
+        
+                    <p class="name"> Sophia Bersani - Healthful Cravings <p class="copyright"> &copy; 2020 </p>
+        
+                 </div>
+                     
+                </div>
+            </footer>
+        
+          </div>
+            <!-- Optional JavaScript but required for the cool stuff -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="js/bootstrap.min.js"></script>
+          </body>
+        </html>

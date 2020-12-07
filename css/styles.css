@@ -2,7 +2,7 @@
 
     background-image:url('../sitemedia/sophia.JPG');
     background-size:cover;
-    background-position:50% 30%;
+    background-position:50% 45%;
     color:#ffffff;
 }
 
@@ -12,9 +12,23 @@
 
 }
 
+
+.row {text-align: center;
+padding: 10px;}
+
+.contactname {padding: 10px;}
+.intro {padding: 10px;}
+.aboutmecontent {padding: 10px;}
+
+
+#footer {text-align: left;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
 .bgcolor2{
 
-    background-color:#d9bfff;
+    background-color:#9eedff;
 }
 
 .btn, .btn:visited, .btn:active{
@@ -25,12 +39,32 @@
 
 }
 
+.navbar-nav .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+
 .btn:hover{
 
     background-color:#ffffff;
     border-color: #ffffff;
     color:#ffbff1;
 }
+
+.dropdown-menu  {
+    padding: 20px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.dropdown-menu a:link {color: #bebccb;}
+.dropdown-menu a:visited {color: #bebccb; }
+.dropdown-menu a:hover {color: #000000; }
 
 .fa {
     padding: 20px;
@@ -44,7 +78,55 @@
   }
 
   .fa:hover{
-    background-color:#ffffff;
+    background-color:#ffbff1;
     border-color: #ffffff;
-    color:#ffbff1; 
+    color:#ffffff; 
   }
+
+  @media only screen and (max-width: 768px) 
+    {
+        .navbar-brand {
+        display: block; }
+
+        .placeslinks a {width: 100%; display: block; padding: 20px; }
+        .pipe {display: none; }
+  
+       
+    } 
+
+#navbar-brand {
+    background-color: #ffbff1;
+    color: #ffffff;
+    border-radius: 1em;
+    padding: 10px; 
+    margin: 10px; 
+}
+
+.navbar 
+{text-align: center;}
+
+
+
+.display-4 {
+    
+    text-align: right;
+
+}
+
+
+    .name {float: left; margin-left: 10px; }
+    .clear {clear: both; }
+    .copyright {float: right; margin-right: 10px; }
+    .clear {clear: both; }
+
+
+#placeslinks a {color: #000000;}
+#placeslinks a:hover {color: #ffffff;}
+
+.restaurantheader {background-color: #ffbff1;
+text-align: center;}
+
+
+#SYR {background-color: #9eedff; text-align: center; padding: 10px;}
+#BOS {background-color: #9eedff; text-align: center; padding: 10px;}
+#NYC {background-color: #9eedff; text-align: center; padding: 10px;}
