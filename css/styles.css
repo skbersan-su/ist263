@@ -100,6 +100,7 @@ padding: 10px;}
         .pagelinks {
             width: 100%; display: block; font-size: 10px;
           }
+    
           
        
     } 
@@ -157,3 +158,7 @@ text-align: center;}
   #recipepic {width: 300px;}
 
   .recipeheader {background-color: #9eedff; padding: 10px; text-align: center;}
+
+  .pancakes, .tofu, .salad, .bananacd { width: 30%;
+
+  }
