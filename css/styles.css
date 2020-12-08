@@ -171,8 +171,7 @@ text-align: center;}
     #skip-to-content { 
         position: absolute;
         left: -999px;
-        background-color: #AC3B61;
-        border: 1px solid gray;
+        display:none;
     }
     #skip-to-content:focus {
         position: absolute;
