@@ -167,3 +167,15 @@ text-align: center;}
   #btn {background-color:#ffbff1;
     border-color:#ffbff1 ;
     color:#ffffff;}
+
+    #skip-to-content { 
+        position: absolute;
+        left: -999px;
+        background-color: #AC3B61;
+        border: 1px solid gray;
+    }
+    #skip-to-content:focus {
+        position: absolute;
+        left: 10px;
+    }
+    
