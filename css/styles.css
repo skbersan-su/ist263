@@ -171,7 +171,7 @@ text-align: center;}
     #skip-to-content { 
         position: absolute;
         left: -999px;
-        display:none;
+   
     }
     #skip-to-content:focus {
         position: absolute;
